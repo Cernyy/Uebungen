@@ -9,6 +9,7 @@ namespace Uebungen
             Console.WriteLine("Hello World!");
             Console.WriteLine("test");
             Console.WriteLine("test2");
+            Console.ReadLine();
             
         }
     }
