@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002_Gamblers Ruin", "002_Ga
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_Zahlumdrehen", "003_Zahlumdrehen\003_Zahlumdrehen.csproj", "{25720C68-BF03-4DC2-9F48-27354C89FE15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_Mirpzahlen", "005 - Mirpzahlen\005_Mirpzahlen.csproj", "{0BDF0962-5FB5-4201-B9C8-C765324D9AB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{25720C68-BF03-4DC2-9F48-27354C89FE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25720C68-BF03-4DC2-9F48-27354C89FE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25720C68-BF03-4DC2-9F48-27354C89FE15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BDF0962-5FB5-4201-B9C8-C765324D9AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BDF0962-5FB5-4201-B9C8-C765324D9AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BDF0962-5FB5-4201-B9C8-C765324D9AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BDF0962-5FB5-4201-B9C8-C765324D9AB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
