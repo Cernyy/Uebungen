@@ -6,7 +6,7 @@ namespace _005___Mirpzahlen
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(isMirp());
+            Console.WriteLine(isMirp(13));
         }
 
         public static bool isMirp(int n)
