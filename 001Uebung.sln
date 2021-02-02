@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uebungen", "Uebungen\Uebungen.csproj", "{2A6C34E5-6276-4E89-955B-B3E41C8E7B53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0001 Magisches Q", "0001 Magisches Q\0001 Magisches Q.csproj", "{60453807-3BCF-4156-A96F-DC7B2180CC43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0001 Magisches Q", "0001 Magisches Q\0001 Magisches Q.csproj", "{60453807-3BCF-4156-A96F-DC7B2180CC43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_Gamblers Ruin", "002_Gamblers Ruin\002_Gamblers Ruin.csproj", "{31B1F5D6-E8EC-465D-B774-5EAE60D25A81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002_Gamblers Ruin", "002_Gamblers Ruin\002_Gamblers Ruin.csproj", "{31B1F5D6-E8EC-465D-B774-5EAE60D25A81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_Zahlumdrehen", "003_Zahlumdrehen\003_Zahlumdrehen.csproj", "{25720C68-BF03-4DC2-9F48-27354C89FE15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{31B1F5D6-E8EC-465D-B774-5EAE60D25A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31B1F5D6-E8EC-465D-B774-5EAE60D25A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31B1F5D6-E8EC-465D-B774-5EAE60D25A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25720C68-BF03-4DC2-9F48-27354C89FE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25720C68-BF03-4DC2-9F48-27354C89FE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25720C68-BF03-4DC2-9F48-27354C89FE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25720C68-BF03-4DC2-9F48-27354C89FE15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
