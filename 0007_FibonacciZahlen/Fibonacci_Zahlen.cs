@@ -2,7 +2,7 @@
 
 namespace _0007_FibonacciZahlen
 {
-    class Program
+    class Fibonacci_Zahlen
     {
         static void Main(string[] args)
         {

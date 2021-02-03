@@ -2,7 +2,7 @@
 
 namespace _008_Arrayelemente_vertaschen
 {
-    class Program
+    class Arrayelemente_vertauschen
     {
         static void Main(string[] args)
         {
