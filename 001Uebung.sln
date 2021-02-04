@@ -9,17 +9,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0001 Magisches Q", "0001 Ma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002_Gamblers Ruin", "002_Gamblers Ruin\002_Gamblers Ruin.csproj", "{31B1F5D6-E8EC-465D-B774-5EAE60D25A81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_Zahlumdrehen", "003_Zahlumdrehen\003_Zahlumdrehen.csproj", "{25720C68-BF03-4DC2-9F48-27354C89FE15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_Zahlumdrehen", "003_Zahlumdrehen\003_Zahlumdrehen.csproj", "{25720C68-BF03-4DC2-9F48-27354C89FE15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_Mirpzahlen", "005 - Mirpzahlen\005_Mirpzahlen.csproj", "{0BDF0962-5FB5-4201-B9C8-C765324D9AB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005_Mirpzahlen", "005 - Mirpzahlen\005_Mirpzahlen.csproj", "{0BDF0962-5FB5-4201-B9C8-C765324D9AB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_Primzahlenüberprüfung nach Wilson", "006_Primzahlenüberprüfung nach Wilson\006_Primzahlenüberprüfung nach Wilson.csproj", "{DEA9145B-4C2B-4DE0-8499-81D9A676F369}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "006_Primzahlenüberprüfung nach Wilson", "006_Primzahlenüberprüfung nach Wilson\006_Primzahlenüberprüfung nach Wilson.csproj", "{DEA9145B-4C2B-4DE0-8499-81D9A676F369}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_Fibonacci Zahlen", "0007_FibonacciZahlen\007_Fibonacci Zahlen.csproj", "{5174F664-01D1-4092-9E58-8DDE3AAE8E0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "007_Fibonacci Zahlen", "0007_FibonacciZahlen\007_Fibonacci Zahlen.csproj", "{5174F664-01D1-4092-9E58-8DDE3AAE8E0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008_Arrayelemente vertauschen", "008_Arrayelemente vertaschen\008_Arrayelemente vertauschen.csproj", "{3FFEE3AD-3896-4B7E-BBAE-5B40DB3A865F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "008_Arrayelemente vertauschen", "008_Arrayelemente vertaschen\008_Arrayelemente vertauschen.csproj", "{3FFEE3AD-3896-4B7E-BBAE-5B40DB3A865F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009_Multiplikationstafel", "008_Multiplikationstafel\009_Multiplikationstafel.csproj", "{5DA050B5-86EF-48D9-B3B4-DE3C0B772BA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "009_Multiplikationstafel", "008_Multiplikationstafel\009_Multiplikationstafel.csproj", "{5DA050B5-86EF-48D9-B3B4-DE3C0B772BA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010_PC ein und ausschalten", "010_PC ein und ausschalten\010_PC ein und ausschalten.csproj", "{29481A8C-E2A6-4BAB-81A7-7C9EE628AEEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011_Uhrzeit", "011_Uhrzeit\011_Uhrzeit.csproj", "{A6907B4F-AF54-47C6-8F82-3A85E5915745}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{5DA050B5-86EF-48D9-B3B4-DE3C0B772BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DA050B5-86EF-48D9-B3B4-DE3C0B772BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DA050B5-86EF-48D9-B3B4-DE3C0B772BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29481A8C-E2A6-4BAB-81A7-7C9EE628AEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29481A8C-E2A6-4BAB-81A7-7C9EE628AEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29481A8C-E2A6-4BAB-81A7-7C9EE628AEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29481A8C-E2A6-4BAB-81A7-7C9EE628AEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6907B4F-AF54-47C6-8F82-3A85E5915745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6907B4F-AF54-47C6-8F82-3A85E5915745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6907B4F-AF54-47C6-8F82-3A85E5915745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6907B4F-AF54-47C6-8F82-3A85E5915745}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
