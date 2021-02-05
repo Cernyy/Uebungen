@@ -4,16 +4,17 @@ namespace _010_PC_ein_und_ausschalten
 {
     class PC_ein_und_ausschalten
     {
-        public static bool status = false;
+        public bool status { get; set; } = false;
         static void Main(string[] args)
         {
             
         }
 
-        /*public static bool Status()
+        public bool Status
         {
-            //get-Methode
-        }*/
+            get { return status; }
+            set { status = value; }
+        }
 
         public static void Einschalten()
         {

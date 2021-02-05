@@ -6,13 +6,19 @@ namespace _005___Mirpzahlen
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(isMirp(13));
+            for (int i = 1; i < 1001; i++)
+            {
+                isMirp(i);
+            }
+            
         }
 
         public static bool isMirp(int n)
         {
-            if (n != Umdrehen(n) && isPrim(n))
+            int umgedreht = Umdrehen(n);
+            if (n != Umdrehen(n) && isPrim(n) && isPrim(umgedreht))
             {
+                Console.WriteLine(n);
                 return true;
             }
             return false;
@@ -33,9 +39,9 @@ namespace _005___Mirpzahlen
 
         public static bool isPrim(int n)
         {
-            for (int i = 2; i < n*n; i++)
+            for (int i = 2; i <= Math.Sqrt(n); i++)
             {
-                if (n % i == 0 && i != n)
+                if (n % i == 0)
                 {
                     return false;
                 }

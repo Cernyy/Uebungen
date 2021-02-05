@@ -6,7 +6,7 @@ namespace _006_Primzahlenüberprüfung_nach_Wilson
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(isPrime(17));
+            Console.WriteLine(isPrime(19));
         }
 
         public static bool isPrime(int p)
@@ -17,7 +17,7 @@ namespace _006_Primzahlenüberprüfung_nach_Wilson
                 return false;
             }
 
-            if (Convert.ToInt64(fakult(p - 1)) + 1 % p == 0)
+            if (fakult(p - 1) + 1 % p == 0)
                 return true;
             else return false;
         }

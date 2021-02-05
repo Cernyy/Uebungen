@@ -4,31 +4,16 @@ namespace _011_Uhrzeit
 {
     class Uhrzeit
     {
-        long sec;
-
-
-        static void Main(string[] args)
-        {
-
-            Uhrzeit u1 = new Uhrzeit(12, 12, 12);
-            Uhrzeit u2 = new Uhrzeit(02, 02, 02);
-
-            Console.WriteLine(u1.sec);
-            u1.Drucken();
-            u1.Sub(u2);
-            u1.Drucken();
-        }
+        public long sec;
 
         public Uhrzeit(int hh, int mm, int ss)
         {
-            this.sec += hh * 360;
-            this.sec += mm * 60;
-            this.sec += ss;
+            sec = (hh * 60 * 60) + (mm * 60) + ss;
         }
 
         public void Add(Uhrzeit t2)
         {
-            t2.sec += this.sec;
+            sec += t2.sec;
         }
 
         public void Sub(Uhrzeit t2)
@@ -39,31 +24,47 @@ namespace _011_Uhrzeit
                 this.sec = this.sec - t2.sec;
         }
 
-        public void Diff(Uhrzeit t2)
+        public void Diff(int hh, int mm, int ss)
         {
+            long otherSec = (hh * 60 * 60) + (mm * 60) + ss;
+            long diffInSec;
 
+            if (otherSec > sec)
+
+                diffInSec = sec - otherSec;
+            else
+                diffInSec = otherSec - sec;
+
+            long sekunden = diffInSec;
+            int h = Convert.ToInt32(sekunden / 3600);
+            h *= -1;
+            sekunden = sekunden % 3600;
+            int m = Convert.ToInt32(sekunden / 60);
+            m *= -1;
+            sekunden = sekunden % 60;
+            int s = Convert.ToInt32(sekunden);
+            s *= -1;
+
+            Console.WriteLine("Differenz: -{0}:{1}:{2}", h.ToString("00"), m.ToString("00"), s.ToString("00"));
         }
 
         public void Drucken()
         {
-            int hh = 0;
-            int mm = 0;
-            int ss = 0;
-
-            long thissec = this.sec;
-
-            for (int i = 0; thissec > 360 ; hh++)
+            long sekunden = sec;
+            int h = Convert.ToInt32(sekunden / 3600);
+            if (h > 23)// Wenn Tag übersprungen wird
             {
-                thissec -= 360;
+                h -= 24;
             }
-            for (int i = 0; thissec > 60; mm++)
+            else if (h < 0)//Wenn Tag negativ übersprungen wird
             {
-                thissec -= 60;
+                h += 24;
             }
-            for (int i = 0; ss < thissec; ss++) { }
-            
-
-            Console.WriteLine("Es ist {0}:{1} Uhr und {2} Sekunden.",hh,mm,ss);
+            sekunden = sekunden % 3600;
+            int m = Convert.ToInt32(sekunden / 60);
+            sekunden = sekunden % 60;
+            int s = Convert.ToInt32(sekunden);
+            Console.WriteLine("Uhrzeit: {0}:{1}:{2}", h.ToString("00"), m.ToString("00"), s.ToString("00"));
         }
 
     }
